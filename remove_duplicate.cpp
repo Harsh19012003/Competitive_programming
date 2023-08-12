@@ -50,24 +50,26 @@ int main(){
 
 
 
-    for (int i: x){
-        cout << "i == " << i;
+    // for (int i: x){
+    //     cout << "i == " << i;
 
-        for (int j: x) {
-            cout << " j == "<< j << endl;
+    //     for (int j: x) {
+    //         cout << " j == "<< j << endl;
 
-            if (i == j){
-                // int tem = x.begin()+i;
-                cout << " erasing this index == " << i << j << " with this val == " << x[i] << endl;
-                x.erase(x.begin()+i); 
-            }
-        }
-    }
+    //         if (i == j){
+    //             // int tem = x.begin()+i;
+    //             cout << " erasing this index == " << i << j << " with this val == " << x[i] << endl;
+    //             x.erase(x.begin()+i); 
+    //         }
+    //     }
+    // }
+
+    
 
     cout << "\n";
 
-    for(int i = 0; i < x.size(); i++){
-        cout << "+" << x[i] << "\n";
+    for(int i = 0; i < y.size(); i++){
+        cout << "+" << y[i] << "\n";
     }
     return 0;
 }
