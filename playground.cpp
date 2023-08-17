@@ -31,6 +31,12 @@ using namespace std;
 //         }
 // };
 
+// class Linkedlist {
+//     public:
+//         int data;
+//         Linkedlist* ptr;
+// };
+
 
 // class Engineering_student : public Student{
 //     public:
@@ -111,6 +117,12 @@ int main(){
     // Student student3;
     // cout << student3.name << endl;
     // cout << student3.roll_no << endl;
+
+    // Linkedlist node;
+    // node.data = 5;
+    // node.ptr = nullptr;
+
+    // cout << node.data;
 
     // Engineering_student student5(12000000);
     // student5.name = "Yash";
